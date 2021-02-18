@@ -25,4 +25,8 @@ public class Circle extends Shape{
     public void onAreaChange (){
         this.area=this.PI*this.radius*this.radius;
     }
+    public void TypeOfShape()
+    {
+        System.out.println("This is a circle");
+    }
 }

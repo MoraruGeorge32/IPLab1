@@ -32,6 +32,9 @@ public class Rectangle extends Shape {
     public void onAreaChange() {
         this.area=this.height*this.width;
     }
-
+    public void TypeOfShape()
+    {
+        System.out.println("This is a rectangle");
+    }
 
 }

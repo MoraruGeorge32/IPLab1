@@ -15,5 +15,14 @@ public class Source {
         System.out.println(c.getArea());
         r=r.setWidth(400);
         System.out.println(r.getArea());
+        Audi A4=new Audi();
+        A4.SetPriceYear(2500);
+        System.out.println(A4.TopSpeed());
+        System.out.println(A4.getYearOfProduction()+"  "+A4.GetPrice());
+        A4.SetPriceYear(7000,2014);
+        System.out.println(A4.getYearOfProduction()+"  "+A4.GetPrice());
+        t.TypeOfShape();
+        r.TypeOfShape();
+
     }
 }

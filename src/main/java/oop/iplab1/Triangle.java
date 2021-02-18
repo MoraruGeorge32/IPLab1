@@ -25,7 +25,10 @@ public class Triangle extends Shape {
         this.onAreaChange();
         return this;
     }
-
+    public void TypeOfShape()
+    {
+        System.out.println("This is a triangle");
+    }
     public void onAreaChange() {
         this.area = (base * height) / 2;
     }

@@ -10,7 +10,6 @@ package oop.iplab1;
  * @author Moraru George, Musteata Robert
  */
 abstract public class Shape {
-   
     public double area;
     public Shape()
     {
@@ -20,5 +19,13 @@ abstract public class Shape {
     {
         return area;
     }
-    public abstract void onAreaChange();
+    public abstract void onAreaChange();//polimorfism dinamic. este supra
+
+    public void TypeOfShape()//functie folosita la polimorfismul dinamic
+    {
+        System.out.println("Abstract idea of a shape");
+    }
 }
+//polimorfism si interfata
+
+
