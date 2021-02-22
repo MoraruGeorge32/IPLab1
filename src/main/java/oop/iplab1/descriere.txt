@@ -1,0 +1,4 @@
+Clasele din program sunt folosite pentru exemplificarea conceptelor din programarea orientata pe obiecte
+Clasa Source contine exemplele de utilizare ale acelor clase in care sunt implementate conceptele
+Clasele Rectangle,Triangle,Circle mostenesc clasa Shape si ele suprascriu metodele onAreaChange si TypeOfShape
+Interfata car este implementata de clasa Audi care adauga si alte metode pentru exemplificarea polimorfismului static
